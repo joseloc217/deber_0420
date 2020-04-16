@@ -8,5 +8,6 @@ url publicada:
 
 https://joseloc217.github.io
 
-Script desarrollo: npm run dev
-Script para producciópn: npm run build
+1. Instalar dependencias: npm install
+2. Script desarrollo: npm run dev
+3. Script para producciópn: npm run build
