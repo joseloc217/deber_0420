@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Webpack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="container my-5 z-depth-2 bg-light">
+        <section class="black-text p-4">
+            <div class="light-font">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb  grey lighten-1">
+                        <li class="breadcrumb-item"><a class="breadcrumb-link" href="./index.html">Inicio</a></li>
+                        <li class="breadcrumb-item"><a class="breadcrumb-link" href="./module-bundler.html">Module
+                                Bundler</a></li>
+                        <li class="breadcrumb-item active">Webpack</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="font-weight-bold mb-4 mt-4">Webpack</h1>
+
+
+                    <p class="text-justify">Webpack es un Module Bundler for modern JavaScript applications, es decir,
+                        un
+                        empaquetador de módulos para aplicaciones modernas hechas en JavaScript.</p>
+                    <p class="text-justify">
+                        Webpack nace a finales del año 2012 producto del trabajo de un desarrollador (<a
+                            href="https://github.com/sokra" target="_blank">Tobias Koppers</a>, alemán). En
+                        la actualidad es utilizado por miles de proyectos de desarrollo web Front-End: pasando por
+                        frameworks
+                        como React o Angular hasta en el desarrollo de aplicaciones tan conocidas como Twitter,
+                        Instagram,
+                        PayPal entre muchas otras de importancia mundial.
+                    </p>
+                    <p class="text-justify">Una aplicación web lleva múltiples tipos de assets como imágenes, fuentes
+                        personalizadas, JSON, CSS, JavaScript, etc. y manejar esto se vuelve un dolor
+                        de cabeza a medida que nuestra aplicación tiene éxito y va creciendo. Todo esto lo resuelve
+                        Webpack
+                        y es por eso que será nuestro empaquetador
+                        de módulos (o Module Mundler) ya que para él, todos estos archivos serán tratados de esta
+                        manera:</p>
+
+                    <div class="text-center mb-4">
+                        <img src="./assets/images/webpack-01.jpg" class="img-fluid" alt="webpack">
+                    </div>
+
+                    <p class="text-justify">
+                        Tener una aplicación organizada es de gran importancia para llevar un correcto manejo de
+                        versiones
+                        de tu código.
+                        También es necesartio organizar carpetas llenas de archivos con toda clase de extensiones y
+                        separar
+                        las que se usan en entornos
+                        de desarrollo, como las que se usarán en producción. Esto lo hace Webpack de manera fácil, solo
+                        debes decirle dónde está
+                        el archivo fuente y a dónde quieres enviar el o los archivos resultantes.
+                    </p>
+                    <p class="text-justify">
+                        El mayor problema que ha tenido Webpack desde siempre es que la configuración es un tanto
+                        complicada,
+                        al menos al principio, lo que hace que tardes un poco en tenerlo funcionando para tu proyecto.
+                        Aunque
+                        en los últimos tiempos están haciendo lo posible para mejorar esto gracias a añadir
+                        funcionalidad en
+                        la interfaz de línea de comandos para partir de plantillas ya pre-configuradas.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </div>
+    <footer class="page-footer font-small purple darken-3 pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <h5 class="">Desarrollo Web Frontend</h5>
+                    <p>Coding for a better World!</p>
+
+                </div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-6 mb-md-0 mb-3">
+
+                    <h5 class="">Module Bundler</h5>
+
+                    <ul class="footer-links">
+                        <li class="text-white-50">
+                            Webpack
+                        </li>
+                        <li>
+                            <a href="#">Rollup</a>
+                        </li>
+                        <li>
+                            <a href="#">Parcel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://joseloc217.github.io"> José Cabrera</a>
+        </div>
+    </footer>
+    <div class="long">
+        <button title="Subir" class="scroll  light-blue darken-4">
+            <i class="fas fa-angle-double-up text-white"></i>
+        </button>
+    </div>
+</body>
+
+</html>
