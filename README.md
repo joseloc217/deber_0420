@@ -6,7 +6,7 @@ empleando boilerplate javascript basado en Parcel
 
 url publicada:
 
-https://joseloc217.github.io
+http://uochomework.com/html/deber
 
 1. Instalar dependencias: npm install
 2. Script desarrollo: npm run dev
