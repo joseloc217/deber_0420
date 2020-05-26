@@ -21,21 +21,26 @@
 </head>
 
 <body>
+    <header class="page-header font-small white darken-3 pt-1">
+        <div class="text-center img-logo bg-white mt-2">
+            <img src="./assets/images/logo.png" class="img-fluid" alt="logo-header">
+        </div>
+        
+    </header>
     <div class="container my-5 z-depth-2 bg-light">
         <section class="black-text p-4">
             <div class="light-font">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb  grey lighten-1">
                         <li class="breadcrumb-item"><a class="breadcrumb-link" href="./index.html">Inicio</a></li>
-                        <li class="breadcrumb-item"><a class="breadcrumb-link" href="./module-bundler.html">Module
-                                Bundler</a></li>
+                        <li class="breadcrumb-item"><a class="breadcrumb-link" href="./frameworks.html">Frameworks</a></li>
                         <li class="breadcrumb-item active">VueJs</li>
                     </ol>
                 </nav>
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="font-weight-bold mb-4 mt-4">Vue</h1>
+                    <h1 class="font-weight-bold mb-4 mt-4">VueJs</h1>
 
 
                     <p class="text-justify">De acuerdo a su página <a href="https://es.vuejs.org/v2/guide/"
@@ -65,8 +70,12 @@
                     </p>
 
 
-                    <div class="text-center mb-4">
-                        <img src="./assets/images/vue.png" class="img-fluid" alt="webpack">
+                    <div class="img-vuejs text-center float-left ml-5 mb-4 mt-4 mr-5">
+                        <picture>
+                            <source media="(max-width: 750px)" srcset="./assets/images/vuejs-small.png 1x">
+                            <source media="(min-width: 751px)" srcset="./assets/images/vuejs.png 1x">
+                            <img src="./assets/images/vuejs.png" alt="tree vuejs">
+                          </picture>
                     </div>
 
                     <p class="text-justify">
@@ -100,34 +109,38 @@
     <footer class="page-footer font-small purple darken-3 pt-4">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
-                <div class="col-md-6 mt-md-0 mt-3">
-
-                    <h5 class="">Desarrollo Web Frontend</h5>
-                    <p>Coding for a better World!</p>
-
+                <div class="col-md-6 mt-md-0 mt-3 mb-0">
+                    <a href="./index.html">
+                    <h5 class="text-center">CODING UOC</h5>
+                    <div class="text-center img-footer">
+                        <img src="./assets/images/footer.png" class="img-fluid float-center" alt="logo-header">
+                    </div>
+                </a>
                 </div>
-
                 <hr class="clearfix w-100 d-md-none pb-3">
-                <div class="col-md-6 mb-md-0 mb-3">
-
-                    <h5 class="">Frameworks</h5>
-
+                <div class="col-md-6 mb-md-0 mb-3 text-middle">
+    
+                    <h5 class="">Categorías</h5>
+    
                     <ul class="footer-links">
                         <li class="text-white-50">
-                            VueJs
+                            Module Bundlers
                         </li>
                         <li>
-                            <a href="#">Angular</a>
+                            <a href="./preprocesadores.html">Proprocesadores</a>
                         </li>
                         <li>
-                            <a href="#">ReactJs</a>
+                            <a href="./lenguajes.html">Lenguajes</a>
+                        </li>
+                        <li>
+                            <a href="./frameworks.html">Frameworks</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="https://joseloc217.github.io"> José Cabrera</a>
+            <a href="https://joseloc217.github.io"> José Luis Cabrera</a>
         </div>
     </footer>
     <div class="long">
